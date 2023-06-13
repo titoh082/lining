@@ -1,63 +1,65 @@
 body{
-    background-image: url( );
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.buttons{
-    padding: 10px;
-    width: 250px;
-    margin-top: 40px;
-    margin-left: 400px;
-    margin: 0% auto;
-}
-form{
-    padding: 10px;
-    width: 240px;
-    text-align: center;
-    margin-top: 10px;
-    color: brown;
-    margin-left: 550px ;
-    
-}
-input{
-    font-size: 16px;
-    padding: 6px;
-    outline: none;
-    color: blue;
-    border-color: blue;
-    text-align: center;
-    border-radius: 20px 20px;
-}
-h1{
-    font-size: 40px;
-    text-align: center;
-    color: blue;
-    text-overflow: inherit;
-    padding: 10px;
-    font-style: italic;
-}
-h2{
-    text-size-adjust: auto;
-    color: blueviolet;
-    text-align: center;
-}
-p{
-    text-align: center;
-    color: blueviolet;
-    font-size: 19px;
-}
-button{
-    border-radius: 10px;
-    background-color:blue;
-    border: transparent;
-    padding: 5px 10px;
-    color: whitesmoke;
-    transition: 0.3s ease-in;
-}
-button:hover{
-    background-color: rgb(236, 14, 25);
-    border: 5px solid rgb(116, 4, 4);
-    color: blueviolet;
-    transition: 0.3s ease-out;
-    cursor: pointer;
-}
+    background-image: url(images/l2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .buttons{
+        padding: 10px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 400px;
+        margin: 0% auto;
+    }
+    form{
+        width: 240px;
+        text-align: center;
+        margin-top: 10px;
+        color: brown;
+        margin-left: 400px;
+        margin: 0 auto;
+    }
+    input{
+        font-size: 16px;
+        padding: 6px;
+        outline: none;
+        color: blue;
+        background: transparent;
+        text-align: center;
+        border-bottom: 2px solid color;
+        border-radius: 20px 20px;
+        border-color: blue;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        color: blueviolet;
+        text-overflow: inherit;
+        padding: 10px;
+    }
+    h1{
+        text-size-adjust: auto;
+        color: blue;
+        font-style: italic;
+        font-size: 40px;
+    }
+    p{
+        text-align: center;
+        color: blueviolet;
+        font-size: 19px;
+        font-style: oblique;
+    }
+    button{
+        border-radius: 10px;
+        background-color:blue;
+        border: transparent;
+        padding: 5px 10px;
+        color: whitesmoke;
+        transition: 0.3s ease-in;
+    }
+    button:hover{
+        background-color: rgb(236, 14, 25);
+        border: 5px solid rgb(116, 4, 4);
+        color: blueviolet;
+        transition: 0.3s ease-out;
+        cursor: pointer;
+    }
